@@ -1,4 +1,4 @@
-import "./index.css";
+// import "./index.css";
 import * as THREE from "three";
 import Stats from 'stats.js'
 
@@ -15,7 +15,7 @@ const stats = new Stats()
 stats.showPanel(0)
 document.body.appendChild(stats.dom)
 
-import { Satellite, Orbit } from "./satellite.js";
+import { Satellite, Orbit } from "./lib/satellite";
 
 const gui = new GUI();
 
